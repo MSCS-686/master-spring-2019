@@ -7,3 +7,4 @@ Instructions on how to setup your environment are described in [SETUP.md](SETUP.
 
 Assignments:
 * [Homework 1](hw1/README.md) - *due on Feb 5th 2019*
+* [Homework 2](hw2/README.md) - *due on Feb 12th 2019*
