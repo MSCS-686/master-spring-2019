@@ -9,8 +9,10 @@ class KMeans(cluster):
 
     def fit(self, Xin):
         X = np.mat(Xin)
+        min = np.amin(Xin)
+        max = np.amax(Xin)
         centroids = [
-            [np.random.randint(0, 80), np.random.randint(0, 80)]
+            [np.random.randint(min, max), np.random.randint(min, max)]
             for i in range(self.k)
         ]
         hypotheses = np.ones(len(X))
